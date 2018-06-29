@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE8EC134-85AA-429C-ADAF-A4236B2FFAA2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HANDAZ.PEB.AnalysisTools</RootNamespace>
+    <AssemblyName>HANDAZ.PEB.AnalysisTools</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="clipper_library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Clipper.6.2.10\lib\net40\clipper_library.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Interop.OpenSTAADUI">
+      <HintPath>..\Ref\Interop.OpenSTAADUI.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Interop.RobotOM">
+      <HintPath>..\Ref\Interop.RobotOM.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rhino3dmIO, Version=5.1.30000.14, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rhino3dmIO.dll-AnyCPU-Windows.5.1.30000.25\lib\net40\Rhino3dmIO.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SAP2000v18">
+      <HintPath>C:\Program Files\Computers and Structures\SAP2000 18\SAP2000v18.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CsiSAP2000\HndzBeamTapered.cs" />
+    <Compile Include="CsiSAP2000\ISAPAPIComponent.cs" />
+    <Compile Include="CsiSAP2000\SAPDesignResults.cs" />
+    <Compile Include="CsiSAP2000\SAPLoadCases.cs" />
+    <Compile Include="CsiSAP2000\SAPLoadCombination.cs" />
+    <Compile Include="CsiSAP2000\SAPLoadPattern.cs" />
+    <Compile Include="CsiSAP2000\SAP2000API.cs" />
+    <Compile Include="CsiSAP2000\SAP2000Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SAP2000Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CsiSAP2000\SAPConcreteMaterial.cs" />
+    <Compile Include="CsiSAP2000\SAPDesignStatistics.cs" />
+    <Compile Include="CsiSAP2000\SAPDistributedLoad.cs" />
+    <Compile Include="CsiSAP2000\SAPFrameElement.cs" />
+    <Compile Include="CsiSAP2000\SAPFrameElementResults.cs" />
+    <Compile Include="CsiSAP2000\SAPITaperedSection.cs" />
+    <Compile Include="CsiSAP2000\SAPISection.cs" />
+    <Compile Include="CsiSAP2000\SAPJointElementResults.cs" />
+    <Compile Include="CsiSAP2000\SAPLoad.cs" />
+    <Compile Include="CsiSAP2000\SAPMaterial.cs" />
+    <Compile Include="CsiSAP2000\SAPPoint.cs" />
+    <Compile Include="CsiSAP2000\SAPPointLoad.cs" />
+    <Compile Include="CsiSAP2000\SAPRestraint.cs" />
+    <Compile Include="CsiSAP2000\SAPSection.cs" />
+    <Compile Include="CsiSAP2000\SAPSteelDesignCode.cs" />
+    <Compile Include="CsiSAP2000\SAPSteelMaterial.cs" />
+    <Compile Include="CustomerInputs.cs" />
+    <Compile Include="IAnalysisTool.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AutodeskRobot\RobotDefinitions.cs" />
+    <Compile Include="AutodeskRobot\RobotDesigner.cs" />
+    <Compile Include="AutodeskRobot\RobotGeometry.cs" />
+    <Compile Include="AutodeskRobot\RobotInit.cs" />
+    <Compile Include="AutodeskRobot\RobotResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RobotResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AutodeskRobot\RobotResults.cs" />
+    <Compile Include="AutodeskRobot\RobotStart.cs" />
+    <Compile Include="RobotLoadAssigns.cs" />
+    <Compile Include="STAADPro\StaadFileWriter.cs" />
+    <Compile Include="STAADPro\STAADProEnums.cs" />
+    <Compile Include="STAADPro\STAADProFileWriter.cs" />
+    <Compile Include="STAADPro\STAADProLoadCombination.cs" />
+    <Compile Include="STAADPro\STAADProLoadPattern.cs" />
+    <Compile Include="STAADPro\STAADProMaterial.cs" />
+    <Compile Include="STAADPro\STAADProMember.cs" />
+    <Compile Include="STAADPro\STAADProPoint.cs" />
+    <Compile Include="STAADPro\STAADProResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>STAADProResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="STAADPro\STAADProSection.cs" />
+    <Compile Include="STAADPro\STAADProTaperedSection.cs" />
+    <Compile Include="STAADPro\STAADProUniformLoad.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CsiSAP2000\SAP2000Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SAP2000Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutodeskRobot\RobotResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>RobotResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="STAADPro\STAADProResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>STAADProResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="OpenSTAADUI">
+      <Guid>{EDA9FA7F-EFC9-4264-9513-39CF6E72604D}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="RobotOM">
+      <Guid>{F3A37BD0-AA2D-11D2-9844-0080C86BE4DF}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AutodeskRobot\RobotDiagram.cd" />
+    <None Include="CsiSAP2000\SAPClassesDiagram.cd" />
+    <None Include="packages.config" />
+    <None Include="STAADPro\STAADProDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\HANDAZteel.Core\HANDAZ.PEB.Core.csproj">
+      <Project>{a5b4ec73-61ee-4c43-913e-8744f9c9c069}</Project>
+      <Name>HANDAZ.PEB.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HANDAZteel.Entities\Handaz.PEB.Entities.csproj">
+      <Project>{3f5d8cb1-4d18-4edd-a9ca-8207d40a88ed}</Project>
+      <Name>Handaz.PEB.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+xcopy /s /y "$(SolutionDir)packages\Rhino3dmIO.dll-AnyCPU-Windows.5.1.30000.25\NativeBinaries\x86\*.*" "$(TargetDir)x86\"
+xcopy /s /y "$(SolutionDir)packages\Rhino3dmIO.dll-AnyCPU-Windows.5.1.30000.25\NativeBinaries\x64\*.*" "$(TargetDir)x64\"
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APIs", "APIs", "{C1790DA0-81BB-46A7-9BFE-516B3CBF2DEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BIM", "BIM", "{AFB34EE5-F3E5-45CC-A9CB-60410A613EDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{46511667-B261-4035-941F-E01A3F814B65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A6BD95D7-BD9D-49AC-8FD8-397C01DBC296}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3061E2EC-C56B-4ACA-A842-B79BE039B6FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{04BD1D31-02E3-4FF7-9182-279AAC935B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HANDAZ.PEB.Core", "HANDAZteel.Core\HANDAZ.PEB.Core.csproj", "{A5B4EC73-61EE-4C43-913E-8744F9C9C069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HANDAZ.PEB.AnalysisTools", "HANDAZteel.AnalysisTools\HANDAZ.PEB.AnalysisTools.csproj", "{CE8EC134-85AA-429C-ADAF-A4236B2FFAA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HANDAZ.PEB.Entities", "HANDAZteel.Entities\HANDAZ.PEB.Entities.csproj", "{3F5D8CB1-4D18-4EDD-A9CA-8207D40A88ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HANDAZ.PEB.BusinessComponents", "HANDAZteel.BusinessComponents\HANDAZ.PEB.BusinessComponents.csproj", "{1A0EEFEB-E247-42C8-B092-7A1640FA55CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HANDAZteel.BIMtest", "HANDAZteel.BIMtest\HANDAZteel.BIMtest.csproj", "{21659ECE-FBEA-4B04-91B9-8C21B1707624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HANDAZ.PEB.BIM", "HANDAZ.PEB.BIM\HANDAZ.PEB.BIM.csproj", "{CDD892AE-D009-48CB-9ABC-4CD4B00A9651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HANDAZ.PEB.WebUI", "HANDAZteel.WebUI\HANDAZ.PEB.WebUI.csproj", "{72290456-BDFD-47EC-9655-BE8691FE5228}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5B4EC73-61EE-4C43-913E-8744F9C9C069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B4EC73-61EE-4C43-913E-8744F9C9C069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B4EC73-61EE-4C43-913E-8744F9C9C069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B4EC73-61EE-4C43-913E-8744F9C9C069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE8EC134-85AA-429C-ADAF-A4236B2FFAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE8EC134-85AA-429C-ADAF-A4236B2FFAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE8EC134-85AA-429C-ADAF-A4236B2FFAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE8EC134-85AA-429C-ADAF-A4236B2FFAA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5D8CB1-4D18-4EDD-A9CA-8207D40A88ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5D8CB1-4D18-4EDD-A9CA-8207D40A88ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5D8CB1-4D18-4EDD-A9CA-8207D40A88ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5D8CB1-4D18-4EDD-A9CA-8207D40A88ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0EEFEB-E247-42C8-B092-7A1640FA55CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0EEFEB-E247-42C8-B092-7A1640FA55CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0EEFEB-E247-42C8-B092-7A1640FA55CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0EEFEB-E247-42C8-B092-7A1640FA55CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21659ECE-FBEA-4B04-91B9-8C21B1707624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21659ECE-FBEA-4B04-91B9-8C21B1707624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21659ECE-FBEA-4B04-91B9-8C21B1707624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21659ECE-FBEA-4B04-91B9-8C21B1707624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD892AE-D009-48CB-9ABC-4CD4B00A9651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD892AE-D009-48CB-9ABC-4CD4B00A9651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD892AE-D009-48CB-9ABC-4CD4B00A9651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD892AE-D009-48CB-9ABC-4CD4B00A9651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72290456-BDFD-47EC-9655-BE8691FE5228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72290456-BDFD-47EC-9655-BE8691FE5228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72290456-BDFD-47EC-9655-BE8691FE5228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72290456-BDFD-47EC-9655-BE8691FE5228}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46511667-B261-4035-941F-E01A3F814B65} = {A6BD95D7-BD9D-49AC-8FD8-397C01DBC296}
+		{A5B4EC73-61EE-4C43-913E-8744F9C9C069} = {04BD1D31-02E3-4FF7-9182-279AAC935B37}
+		{CE8EC134-85AA-429C-ADAF-A4236B2FFAA2} = {C1790DA0-81BB-46A7-9BFE-516B3CBF2DEF}
+		{3F5D8CB1-4D18-4EDD-A9CA-8207D40A88ED} = {46511667-B261-4035-941F-E01A3F814B65}
+		{1A0EEFEB-E247-42C8-B092-7A1640FA55CB} = {04BD1D31-02E3-4FF7-9182-279AAC935B37}
+		{21659ECE-FBEA-4B04-91B9-8C21B1707624} = {AFB34EE5-F3E5-45CC-A9CB-60410A613EDF}
+		{CDD892AE-D009-48CB-9ABC-4CD4B00A9651} = {AFB34EE5-F3E5-45CC-A9CB-60410A613EDF}
+		{72290456-BDFD-47EC-9655-BE8691FE5228} = {3061E2EC-C56B-4ACA-A842-B79BE039B6FB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://palapoza.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HANDAZteel.AnalysisTools\\HANDAZ.PEB.AnalysisTools.csproj
+		SccProjectTopLevelParentUniqueName1 = HANDAZteel.sln
+		SccProjectName1 = HANDAZteel.AnalysisTools
+		SccLocalPath1 = HANDAZteel.AnalysisTools
+		SccProjectUniqueName2 = HANDAZteel.BusinessComponents\\HANDAZ.PEB.BusinessComponents.csproj
+		SccProjectTopLevelParentUniqueName2 = HANDAZteel.sln
+		SccProjectName2 = HANDAZteel.BusinessComponents
+		SccLocalPath2 = HANDAZteel.BusinessComponents
+		SccProjectUniqueName3 = HANDAZteel.Core\\HANDAZ.PEB.Core.csproj
+		SccProjectTopLevelParentUniqueName3 = HANDAZteel.sln
+		SccProjectName3 = HANDAZteel.Core
+		SccLocalPath3 = HANDAZteel.Core
+		SccProjectUniqueName4 = HANDAZteel.Entities\\HANDAZ.PEB.Entities.csproj
+		SccProjectTopLevelParentUniqueName4 = HANDAZteel.sln
+		SccProjectName4 = HANDAZteel.Entities
+		SccLocalPath4 = HANDAZteel.Entities
+		SccProjectUniqueName5 = HANDAZteel.BIMtest\\HANDAZteel.BIMtest.csproj
+		SccProjectTopLevelParentUniqueName5 = HANDAZteel.sln
+		SccProjectName5 = HANDAZteel.BIMtest
+		SccLocalPath5 = HANDAZteel.BIMtest
+		SccProjectUniqueName6 = HANDAZ.PEB.BIM\\HANDAZ.PEB.BIM.csproj
+		SccProjectTopLevelParentUniqueName6 = HANDAZteel.sln
+		SccProjectName6 = HANDAZ.PEB.BIM
+		SccLocalPath6 = HANDAZ.PEB.BIM
+		SccProjectUniqueName7 = HANDAZteel.WebUI\\HANDAZ.PEB.WebUI.csproj
+		SccProjectTopLevelParentUniqueName7 = HANDAZteel.sln
+		SccProjectName7 = HANDAZteel.WebUI
+		SccLocalPath7 = HANDAZteel.WebUI
+	EndGlobalSection
+EndGlobal

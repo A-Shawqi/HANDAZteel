@@ -1,0 +1,13 @@
+﻿<Window x:Class="HANDAZ.PEB.DesktopUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HANDAZ.PEB.DesktopUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="btn_GenerateIfc" Content="Generate Ifc" HorizontalAlignment="Left" Margin="210,160,0,0" VerticalAlignment="Top" Width="130" Height="45" Click="btn_GenerateIfc_Click"/>
+
+    </Grid>
+</Window>

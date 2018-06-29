@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b76241e7d6e1462ca366ce5137076a50" Name="Diagram1">
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_Applications" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_Membership" Width="1.5" PointX="6" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_Paths" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_PersonalizationAllUsers" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_PersonalizationPerUser" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_Profile" Width="1.5" PointX="10.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_Roles" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_SchemaVersions" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_Users" Width="1.5" PointX="8.25" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.aspnet_WebEvent_Events" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.Member" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.Result" Width="1.5" PointX="12.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.sysdiagram" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.UserModel" Width="1.5" PointX="10.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HANDZ_PEB_DBModel.UserNotification" Width="1.5" PointX="10.5" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK__aspnet_Me__Appli__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK__aspnet_Pa__Appli__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK__aspnet_Ro__Appli__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK__aspnet_Us__Appli__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK__aspnet_Me__UserI__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK_Member_ASPuserID" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK__aspnet_Pe__PathI__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK__aspnet_Pe__PathI__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK__aspnet_Pe__UserI__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK__aspnet_Pr__UserI__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK_UserModels_MemberID" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK_UserNotifications_MemberID" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.FK_Results_ModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="HANDZ_PEB_DBModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

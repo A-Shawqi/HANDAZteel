@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AnonymousUsers.master.cs" Inherits="HANDAZ.PEB.WebUI.MasterPages.AnonymousUsers" %>
+
+<%@ Register Src="~/MasterPages/MasterPagesControls/OxygenTemplate/ctrl_GeneralReferences.ascx" TagPrefix="uc1" TagName="ctrl_GeneralReferences" %>
+<%@ Register Src="~/MasterPages/MasterPagesControls/OxygenTemplate/ctrl_Header.ascx" TagPrefix="uc1" TagName="ctrl_Header" %>
+<%@ Register Src="~/MasterPages/MasterPagesControls/OxygenTemplate/ctrl_Footer.ascx" TagPrefix="uc1" TagName="ctrl_Footer" %>
+<%@ Register Src="~/MasterPages/MasterPagesControls/OxygenTemplate/ctrl_SlideMenu.ascx" TagPrefix="uc1" TagName="ctrl_SlideMenu" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title><%= Resources.WebResources.siteTitle%></title>
+    <uc1:ctrl_GeneralReferences runat="server" ID="ctrl_GeneralReferences" />
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+</head>
+
+
+<body>
+    <form id="form1" runat="server">
+        <uc1:ctrl_SlideMenu runat="server" ID="ctrl_SlideMenu" />
+        <div class="container">
+            <div class="row">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <uc1:ctrl_Footer runat="server" ID="ctrl_Footer" />
+    </form>
+</body>
+</html>

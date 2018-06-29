@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAP2000API" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAcARBQgSAABASAeAAAAABBAAo6wAAQEAAUFUEBAA=</HashCode>
+      <FileName>CsiSAP2000\SAP2000API.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAP2000Resources" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAABQAAAAAAAAAAEAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPConcreteMaterial" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>CsiSAP2000\SAPConcreteMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPDesignResults" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPDesignResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPDesignStatistics" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAIAAAAAAAAIAAADCAAAAwAEAAEABAA=</HashCode>
+      <FileName>CsiSAP2000\SAPDesignStatistics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPDistributedLoad" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAQAAgAEAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPDistributedLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPFrameElement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAUAAAQAAAAAAAAAQEAEAEAAAASAAAAIAAAAg=</HashCode>
+      <FileName>CsiSAP2000\SAPFrameElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPAnalysisResults" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAEAABQBQAAAAEABAAAgATAAIAAAESACABEAAjAA=</HashCode>
+      <FileName>CsiSAP2000\SAPFrameElementResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPISection" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABABAATAAAAAAAAAAACEBAFAAAAAIAAAAABAEAAAE=</HashCode>
+      <FileName>CsiSAP2000\SAPISection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPITaperedSection" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAFAAAAAAAAEgACABAAAAAAAIAAQAAAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPITaperedSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPJointElementResults" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABCAQAAAAEAIAAAACBAACAEQAAgBBAGQACQBkAAwgA=</HashCode>
+      <FileName>CsiSAP2000\SAPJointElementResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPLoad" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAAAAAAAAAAAAAAAAQAAAAAAAIAAIAAAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPLoad.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPLoadCase" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPLoadCases.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPLoadCombination" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEACAAAAAAAAABBQAAQAQAAAAAAIQAAAAEAAgAA=</HashCode>
+      <FileName>CsiSAP2000\SAPLoadCombination.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPLoadPattern" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAACAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPLoadPattern.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPMaterial" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACAAAAgAAAAAAAAQDAAIgAAQAAAAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPMaterial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPPoint" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAABgAAAAAQAAAAEAABACAAAAAAAYAE=</HashCode>
+      <FileName>CsiSAP2000\SAPPoint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPPointLoad" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPPointLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPRestraint" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAQGAAAAAAAAAAAABAIAAAQCAgECAAIBAgAAAAAEA=</HashCode>
+      <FileName>CsiSAP2000\SAPRestraint.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPSection" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAACAQAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPSection.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPSteelDesignCode" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMwAgAEAAAAAAAAAAIAAAAAAAAAAAAgQCAAAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPSteelDesignCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPSteelMaterial" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>CsiSAP2000\SAPSteelMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.ISAPAPIComponent" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CsiSAP2000\ISAPAPIComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPAnalysisDOFs" Collapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAAAAAACAEA=</HashCode>
+      <FileName>CsiSAP2000\SAP2000API.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.LengthTypeEnum" Collapsed="true">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPITaperedSection.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.LoadCombinationsEnum" Collapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAAgAAEAAI=</HashCode>
+      <FileName>CsiSAP2000\SAPLoadCombination.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.PEB.AnalysisTools.CsiSAP2000.SAPRestraintEnum" Collapsed="true">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQBAAAA=</HashCode>
+      <FileName>CsiSAP2000\SAPRestraint.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

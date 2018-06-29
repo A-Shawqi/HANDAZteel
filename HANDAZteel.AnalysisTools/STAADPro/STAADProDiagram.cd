@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MarkTest.StaadFileWriter" Collapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAgAAAAIAAAAAAAAAQAEAAAAAAAA=</HashCode>
+      <FileName>STAADPro\StaadFileWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProFileWriter" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAgAAAAACAABEAAClgAAQAAABAAADA=</HashCode>
+      <FileName>STAADPro\STAADProFileWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProLoadCombination" Collapsed="true">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAAACAEAAAAAAAAAAAA=</HashCode>
+      <FileName>STAADPro\STAADProLoadCombination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProLoadPattern" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAEAAAAQAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>STAADPro\STAADProLoadPattern.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProMaterial" Collapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACQRAAAAABAIAAAAAgAAAAA=</HashCode>
+      <FileName>STAADPro\STAADProMaterial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProMember" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEAAAAAAIAAAAAEAAAAAAIAAAAg=</HashCode>
+      <FileName>STAADPro\STAADProMember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProPoint" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEAAAAAAIAAAAAEAAAAAAAAAYAE=</HashCode>
+      <FileName>STAADPro\STAADProPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProResources" Collapsed="true">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAABQAAAAAAAAAAEAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProSection" Collapsed="true">
+    <Position X="1.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>STAADPro\STAADProSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProTaperedSection" Collapsed="true">
+    <Position X="1.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAQAAAAAAEAEBAEAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>STAADPro\STAADProTaperedSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProUniformLoad" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>STAADPro\STAADProUniformLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProSectionTypeEnum" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>STAADPro\STAADProEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProSupportTypeEnum" Collapsed="true">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>STAADPro\STAADProEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProLoadTypeEnum" Collapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAUAAAAAAAAEgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>STAADPro\STAADProEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.PEB.AnalysisTools.STAADPro.STAADProDirectionEnum" Collapsed="true">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAIAAAAAABAAgAAIAAAAQAAAAAAAAAYAE=</HashCode>
+      <FileName>STAADPro\STAADProEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
