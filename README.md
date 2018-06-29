@@ -29,13 +29,48 @@ Scope:
 
 Assumptions and Dependencies:
 
-DE-1: SAP2000 Software:
+DE-1: STAAD Pro Software
+
+DE-2: SAP2000 Structural Analysis Software
+
+DE-3: Autodesk Robot Structural Analysis Software
 
 Our solution will be fully dependent to perform structural analysis and designs of any structural elements, however, modifications can be made to meet the desired outcome criteria.
 
+In the future, we tend to use open source Analysis tool, to make the solution a stand-alone package.
 
-DE-2: BIM/CAD Software:
 
-The drawings will be generated in one of the BIM or CAD extensions and will work in a third-party BIM/CAD environment.
 
-Alternatively, we may develop our own BIM/CAD viewer to meet specific criteria. 
+Constraints
+•	The software lacks stability and reliability when it comes to generating IFC files, due to some xBIM library bugs
+
+
+
+Tools, and Techniques
+
+•	Data tier: xml 
+
+•	Server tier: C# & ASP.Net
+
+•	Client tier: JavaScript & Bootstrap
+
+
+
+
+Resources
+•	Prof. El-Sayed Mashaly, Design of Steel Sections according to Egyptian code of practices for steel structures
+
+•	Egyptian code of practices for Steel Structures
+
+•	ASCE 7-10, Wind Chapter
+
+•	Building Smart IFC Schema
+
+•	XBIM Open Source Project documentation
+
+•	SAP2000 Open API Documentation
+
+•	Autodesk Robot SDK Documentation
+
+•	STAAD Pro Help files
+
