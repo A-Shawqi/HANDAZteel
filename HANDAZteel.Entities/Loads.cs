@@ -8,6 +8,6 @@ namespace HANDAZ.PEB.Entities
 {
     class Loads
     {
-        
+        // Empty
     }
 }
