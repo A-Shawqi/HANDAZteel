@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SAP2000v18;
+using SAP2000v20;
 
 namespace HANDAZ.PEB.AnalysisTools.CsiSAP2000
 {

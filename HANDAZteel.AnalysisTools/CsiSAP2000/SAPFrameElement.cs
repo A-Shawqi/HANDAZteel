@@ -98,11 +98,11 @@ namespace HANDAZ.PEB.AnalysisTools.CsiSAP2000
                     throw new NotImplementedException("HotRolled is not ready");
                     break;
                 case HndzSectionTypeEnum.BuiltUpI:
-                    HndzBeamStandrdCase beam = null;
+                    HndzBeamStandardCase beam = null;
                     HndzColumnStandardCase column = null;
-                    if (element is HndzBeamStandrdCase)
+                    if (element is HndzBeamStandardCase)
                     {
-                        beam = (HndzBeamStandrdCase)element;
+                        beam = (HndzBeamStandardCase)element;
                         Name = Label = beam.Name;
 
                         SAPISection iSection = new SAPISection();
@@ -128,9 +128,9 @@ namespace HANDAZ.PEB.AnalysisTools.CsiSAP2000
 
                     break;
                 case HndzSectionTypeEnum.TaperedI:
-                    HndzBeamStandrdCase beamTapered = null;
-                    HndzBeamStandrdCase columnTapered = null;
-                    if (element is HndzBeamStandrdCase)
+                    HndzBeamStandardCase beamTapered = null;
+                    HndzBeamStandardCase columnTapered = null;
+                    if (element is HndzBeamStandardCase)
                     {
                         //beamTapered = (HndzBeamTapered)element;
                         //Name = Label = beamTapered.Name;
@@ -143,9 +143,9 @@ namespace HANDAZ.PEB.AnalysisTools.CsiSAP2000
                         //EndPoint.ConvertFromHndzNode(beamTapered.ExtrusionLine.EndNode);
                         throw new NotImplementedException();
                     }
-                    else if (element is HndzBeamStandrdCase)
+                    else if (element is HndzBeamStandardCase)
                     {
-                        columnTapered = (HndzBeamStandrdCase)element;
+                        columnTapered = (HndzBeamStandardCase)element;
                         Name = Label = columnTapered.Name;
 
                         if (columnTapered.Profile is HndzITaperedProfile)

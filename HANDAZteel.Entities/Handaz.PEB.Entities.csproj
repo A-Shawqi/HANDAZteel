@@ -38,17 +38,18 @@
       <HintPath>..\packages\Clipper.6.2.10\lib\net40\clipper_library.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Esent.Interop, Version=1.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\ManagedEsent.1.9.2.0\lib\net40\Esent.Interop.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Esent.Interop, Version=1.9.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\ManagedEsent.1.9.4\lib\net40\Esent.Interop.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="netDxf, Version=2.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\netDXF.2.2.0.1\lib\net45\netDxf.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -73,21 +74,32 @@
       <HintPath>..\packages\UnitsNet.3.36.0\lib\net35\UnitsNet.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Xbim.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Essentials.3.1.10\lib\net40\Xbim.Common.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Xbim.CobieExpress, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.CobieExpress.dll</HintPath>
     </Reference>
-    <Reference Include="Xbim.Ifc.Extensions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Essentials.3.1.10\lib\net40\Xbim.Ifc.Extensions.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Xbim.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Xbim.Ifc2x3, Version=3.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Essentials.3.1.10\lib\net40\Xbim.Ifc2x3.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Xbim.Ifc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc.dll</HintPath>
     </Reference>
-    <Reference Include="Xbim.IO, Version=3.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Essentials.3.1.10\lib\net40\Xbim.IO.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Xbim.Ifc.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.Ifc2x3, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc2x3.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.Ifc2x3.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc2x3.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.Ifc4, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.Tessellator, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Tessellator.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -99,8 +111,14 @@
     <Compile Include="Core\HndzAnalysisResults.cs" />
     <Compile Include="Core\HndzArchitecturalElement.cs" />
     <Compile Include="Core\HndzArchitecturalMaterial.cs" />
+    <Compile Include="Core\HndzBeamStandardCase.cs" />
+    <Compile Include="Core\HndzCircularProfile.cs" />
+    <Compile Include="Core\HndzCurtainWallArc.cs" />
+    <Compile Include="Core\HndzCurtainWallStandardCase.cs" />
     <Compile Include="Core\HndzDistributedLoad.cs" />
     <Compile Include="Core\HndzDoor.cs" />
+    <Compile Include="Core\HndzFloor.cs" />
+    <Compile Include="Core\HndzFooting.cs" />
     <Compile Include="Core\HndzGuirt.cs" />
     <Compile Include="Core\HndzCSectionProfile.cs" />
     <Compile Include="Core\HndzISectionProfile.cs" />
@@ -110,12 +128,20 @@
     <Compile Include="Core\HndzMaterial.cs" />
     <Compile Include="Core\HndzNodeReactions.cs" />
     <Compile Include="Core\HndzPointLoad.cs" />
+    <Compile Include="Core\HndzPolyline.cs" />
+    <Compile Include="Core\HndzPolylineProfile.cs" />
     <Compile Include="Core\HndzProject.cs" />
     <Compile Include="Core\HndzPurlin.cs" />
     <Compile Include="Core\HndzBracingStandrdCase.cs" />
     <Compile Include="Core\HndzRestraint.cs" />
     <Compile Include="Core\HndzRoofCovering.cs" />
+    <Compile Include="Core\HndzSlab.cs" />
+    <Compile Include="Core\HndzSlabOpening.cs" />
+    <Compile Include="Core\HndzStair.cs" />
+    <Compile Include="Core\HndzStairFlight.cs" />
+    <Compile Include="Core\HndzStairLanding.cs" />
     <Compile Include="Core\HndzSteelMaterial.cs" />
+    <Compile Include="Core\HndzStraightStairFlight.cs" />
     <Compile Include="Core\HndzStructuralElement.cs" />
     <Compile Include="Core\HndzStructuralMaterial.cs" />
     <Compile Include="Core\HndzSupport.cs" />
@@ -208,6 +234,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Core\ClassDiagram1.cd" />
     <None Include="Core\HndzCoreDiagram.cd" />
     <None Include="packages.config" />
   </ItemGroup>

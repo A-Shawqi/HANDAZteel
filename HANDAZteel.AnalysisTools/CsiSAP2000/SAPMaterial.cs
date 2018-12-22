@@ -1,5 +1,5 @@
 ﻿using HANDAZ.Entities;
-using SAP2000v18;
+using SAP2000v20;
 using System;
 using System.Collections.Generic;
 using System.Linq;

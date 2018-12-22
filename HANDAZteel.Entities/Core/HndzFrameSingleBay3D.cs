@@ -4,19 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
-using System.Text;
 using System.Xml.Serialization;
 using Wosad.Common.Section.SectionTypes;
 
 namespace HANDAZ.Entities
 {
-    [DataContract]  [Serializable]  [XmlSerializerFormat]
+    [DataContract]
+    [Serializable]
+    [XmlSerializerFormat]
     public class HndzFrameSingleBay3D : HndzFrame3D
     {
         #region Properties
         [DataMember, XmlAttribute]
         [XmlArray("Frames2D")]
-        public  ICollection< HndzFrameSingleBay2D> Frames2D { get; set; }
+        public ICollection<HndzFrameSingleBay2D> Frames2D { get; set; }
         #endregion
 
         #region Constructors
@@ -82,9 +83,9 @@ namespace HANDAZ.Entities
         {
         }
 
-        public HndzFrameSingleBay3D():this(HndzResources.DefaultName,HndzResources.DefaultDescription,60,6,2,
-            HndzLocationEnum.Cairo,HndzRoofSlopeEnum.From1To10,HndzRoofAccessibilityEnum.Inaccessible,HndzBuildingEnclosingEnum.Enclosed,
-            HndzImportanceFactorEnum.II,null,null,null)
+        public HndzFrameSingleBay3D() : this(HndzResources.DefaultName, HndzResources.DefaultDescription, 60, 6, 2,
+            HndzLocationEnum.Cairo, HndzRoofSlopeEnum.From1To10, HndzRoofAccessibilityEnum.Inaccessible, HndzBuildingEnclosingEnum.Enclosed,
+            HndzImportanceFactorEnum.II, null, null, null)
         {
         }
 
@@ -99,7 +100,7 @@ namespace HANDAZ.Entities
             HndzISectionProfile smallProfile = new HndzISectionProfile(new SectionI("small", 1000, 500, 100, 50));
 
 
-            HndzITaperedProfile assumedProfileColumn = new HndzITaperedProfile(smallProfile, bigProfile, new Vector2d(1,0));
+            HndzITaperedProfile assumedProfileColumn = new HndzITaperedProfile(smallProfile, bigProfile, new Vector2d(1, 0));
             HndzITaperedProfile assumedProfileBeam = new HndzITaperedProfile(bigProfile, smallProfile, new Vector2d(0, 1));
 
             HndzITaperedProfile columnsTaperedProfile = null;
@@ -152,7 +153,10 @@ namespace HANDAZ.Entities
 
 
 
-            if (purlinsSection == null) purlinsSection = AssumedCSection;
+            if (purlinsSection == null)
+            {
+                purlinsSection = AssumedCSection;
+            }
             #endregion
 
             columnsStartSection = columnsTaperedProfile.StartProfile.I_Section;
@@ -179,17 +183,17 @@ namespace HANDAZ.Entities
 
                 ////
                 HndzLine rColLine = new HndzLine(lowerRight, upperRight);
-                Frame.RightColumn = new HndzColumnStandardCase(rColLine, columnsTaperedProfile);
+                Frame.RightColumn = new HndzColumnStandardCase(rColLine, columnsTaperedProfile, BuildingStorey);
 
                 HndzLine lColLine = new HndzLine(lowerLeft, upperLeft);
-                Frame.LeftColumn = new HndzColumnStandardCase(lColLine, columnsTaperedProfile);
+                Frame.LeftColumn = new HndzColumnStandardCase(lColLine, columnsTaperedProfile, BuildingStorey);
 
                 /////
                 HndzLine rBeamLine = new HndzLine(upperRight, ridgeMid);
-                Frame.RightBeam = new HndzBeamStandrdCase(rBeamLine, beamsTaperedProfile);
+                Frame.RightBeam = new HndzBeamStandardCase(rBeamLine, beamsTaperedProfile, BuildingStorey);
 
                 HndzLine lBeamLine = new HndzLine(upperLeft, ridgeMid);
-                Frame.LeftBeam = new HndzBeamStandrdCase(lBeamLine, beamsTaperedProfile);
+                Frame.LeftBeam = new HndzBeamStandardCase(lBeamLine, beamsTaperedProfile, BuildingStorey);
 
                 Frame.RightSupport = new HndzSupport(HndzSupportTypeEnum.Pinned, new HndzNode(lowerRight));
                 Frame.LeftSupport = new HndzSupport(HndzSupportTypeEnum.Pinned, new HndzNode(lowerLeft));
@@ -211,10 +215,10 @@ namespace HANDAZ.Entities
             }
 
             //double pulinZoffset = beamsStartSection.d / 2 - beamsStartSection.tf / 2; ///////Need Revision "msh 3arf ezay bs hya kda sha8ala 7lw :D"
-            double pulinZoffset = /*beamsEndSection.d / 2 */+purlinsSection.d/2; ///////Need Revision "msh 3arf ezay bs hya kda sha8ala 7lw :D"
+            double pulinZoffset = /*beamsEndSection.d / 2 */+purlinsSection.d / 2; ///////Need Revision "msh 3arf ezay bs hya kda sha8ala 7lw :D"
             //double taperingDiffrence = 0.5*(beamsStartSection.d - beamsEndSection.d);
             double xLeft = 0 - FirstPurlinSpacingCL;
-            double zLeft = RidgeHeight + pulinZoffset ;
+            double zLeft = RidgeHeight + pulinZoffset;
             pulinZoffset = 0;
 
             double taperingZoffsetLeft = PurlinSpacing * ((beamsStartSection.d - beamsEndSection.d) / 2) / (Frames2D.ElementAt(0).LeftBeam.ExtrusionLine.RhinoLine.Length);
@@ -227,14 +231,14 @@ namespace HANDAZ.Entities
                 HndzCSectionProfile assumedProfilePurlin = new HndzCSectionProfile(purlinsSection, new Vector2d(0, -1));
 
                 HndzLine purlinLine = new HndzLine(new Line(startL, endL));
-                Purlins.Add(new HndzPurlinStandrdCase(assumedProfilePurlin, purlinLine));
+                Purlins.Add(new HndzPurlinStandrdCase(assumedProfilePurlin, purlinLine, BuildingStorey));
 
                 xLeft -= PurlinSpacing;
                 zLeft -= PurlinSpacing * Math.Tan(roofSlopeAngle) - taperingZoffsetLeft;
 
-            } while (xLeft > -Width/2 + FirstPurlinSpacingCL && zLeft > EaveHeight + pulinZoffset);
-            
-            double xRight = 0+ FirstPurlinSpacingCL;
+            } while (xLeft > -Width / 2 + FirstPurlinSpacingCL && zLeft > EaveHeight + pulinZoffset);
+
+            double xRight = 0 + FirstPurlinSpacingCL;
             double zRight = RidgeHeight + pulinZoffset;
 
             do
@@ -245,12 +249,12 @@ namespace HANDAZ.Entities
                 HndzCSectionProfile assumedProfilePurlin = new HndzCSectionProfile(purlinsSection, new Vector2d(0, 1));
 
                 HndzLine purlinLine = new HndzLine(new Line(startR, endR));
-                Purlins.Add(new HndzPurlinStandrdCase(assumedProfilePurlin, purlinLine));
+                Purlins.Add(new HndzPurlinStandrdCase(assumedProfilePurlin, purlinLine, BuildingStorey));
 
                 xRight += PurlinSpacing;
                 zRight -= PurlinSpacing * Math.Tan(roofSlopeAngle) - taperingZoffsetLeft;
 
-            } while (xRight < Width/2 && zRight > EaveHeight + pulinZoffset);
+            } while (xRight < Width / 2 && zRight > EaveHeight + pulinZoffset);
         }
 
 

@@ -1,32 +1,6 @@
 ﻿using HANDAZ.Entities;
 using HANDAZ.PEB.BIM;
-using HANDAZteel.BIMtest;
-using Rhino.Geometry;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Wosad.Common.Section.SectionTypes;
-using Xbim.Common.Geometry;
-using Xbim.Ifc2x3.Extensions;
-using Xbim.Ifc2x3.GeometricConstraintResource;
-using Xbim.Ifc2x3.GeometricModelResource;
-using Xbim.Ifc2x3.GeometryResource;
-using Xbim.Ifc2x3.Kernel;
-using Xbim.Ifc2x3.MaterialResource;
-using Xbim.Ifc2x3.MeasureResource;
-using Xbim.Ifc2x3.PresentationOrganizationResource;
-using Xbim.Ifc2x3.ProductExtension;
-using Xbim.Ifc2x3.ProfileResource;
-using Xbim.Ifc2x3.RepresentationResource;
-using Xbim.Ifc2x3.SharedBldgElements;
-using Xbim.Ifc2x3.TopologyResource;
-using Xbim.IO;
-using Xbim.ModelGeometry.Scene;
-using Xbim.XbimExtensions.Interfaces;
-using XbimGeometry.Interfaces;
 
 namespace HANDAZ.IFCGenerator
 {
@@ -41,7 +15,7 @@ namespace HANDAZ.IFCGenerator
             HndzFrameSingleBay3D frame3D = new HndzFrameSingleBay3D(/*length*/24000,  /*baySpacing*/ 6000,   /*Width*/20000, 
                  5000, 2000, HndzLocationEnum.Cairo,HndzRoofSlopeEnum.From1To5, HndzRoofAccessibilityEnum.Inaccessible, 
                  HndzBuildingEnclosingEnum.PartiallyEnclosed, HndzImportanceFactorEnum.II,null,null,null,null,null,storey);
-         bool isGenerated=   ConvertToIFC.GenerateIFCProject(project, "E:\\test13June");
+         bool isGenerated= ConvertToIFC.GenerateIFCProject(project, "E:\\test13June");
 
             if (isGenerated)
             {

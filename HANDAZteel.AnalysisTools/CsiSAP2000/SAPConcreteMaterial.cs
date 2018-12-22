@@ -1,4 +1,4 @@
-﻿using SAP2000v18;
+﻿using SAP2000v20;
 namespace HANDAZ.PEB.AnalysisTools.CsiSAP2000
 {
     public class SAPConcreteMaterial : SAPMaterial

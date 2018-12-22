@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HANDAZ.PEB.AnalysisTools.CsiSAP2000;
 using HANDAZ.Entities;
-using SAP2000v18;
+using SAP2000v20;
 
 namespace HANDAZ.PEB.BusinessComponents.AnalysisToolsConverters
 {

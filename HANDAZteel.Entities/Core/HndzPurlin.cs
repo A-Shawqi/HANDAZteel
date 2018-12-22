@@ -17,14 +17,15 @@ namespace HANDAZ.Entities
 
         #endregion
         #region Constructors
-        protected HndzPurlin(String name, String description, HndzLine extrusionLine,HndzProfile profile, HndzStorey storey = null,
+        protected HndzPurlin(String name, String description, HndzLine extrusionLine, HndzProfile profile, HndzStorey storey = null,
                             double baseOffset = 0, Vector3d direction = default(Vector3d)) :
-                        base(name, description, extrusionLine,profile, storey, baseOffset)
+                        base(name, description, extrusionLine, profile, storey, baseOffset)
         {
         }
-        protected HndzPurlin() : this(HndzResources.DefaultName, HndzResources.DefaultDescription, null,null)
+        protected HndzPurlin() : this(HndzResources.DefaultName, HndzResources.DefaultDescription, null, null)
         {
         }
         #endregion
     }
+
 }

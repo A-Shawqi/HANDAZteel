@@ -22,8 +22,9 @@ namespace HANDAZ.Entities
 
         #endregion
         #region Constructors
-        protected HndzFrame2D(string name, string description,  HndzStorey storey = null):
-                   base(name,description, storey )
+        protected HndzFrame2D(string name, string description,  HndzStorey storey = null, 
+                    double baseOffset = 0):
+                   base(name,description, storey /*, baseOffset,HndzProductDiscipline.Structural*/ )
         {
         }
         protected HndzFrame2D() : this(HndzResources.DefaultName, HndzResources.DefaultDescription)

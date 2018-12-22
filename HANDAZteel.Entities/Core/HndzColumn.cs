@@ -10,7 +10,7 @@ using System.ServiceModel;
 namespace HANDAZ.Entities
 {
     [DataContract]  [Serializable]  [XmlSerializerFormat]
-    [KnownType(typeof(HndzColumnStandardCase))]
+     [KnownType(typeof(HANDAZ.Entities.HndzColumnStandardCase))]
     public abstract class HndzColumn : HndzStructuralElement
     {
         //static uint Id;
@@ -23,7 +23,17 @@ namespace HANDAZ.Entities
         public double TopOffset { get; set; } // ana msh m7tagha
         #endregion
         #region Constructors
-        protected HndzColumn(String name, String description, HndzLine extrusionLine,HndzProfile profile, HndzStorey storey = null, Double baseOffset = 0,
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="description"></param>
+        /// <param name="extrusionLine"></param>
+        /// <param name="profile"></param>
+        /// <param name="storey"></param>
+        /// <param name="baseOffset"></param>
+        /// <param name="discipline"></param>
+        protected HndzColumn(String name, String description, HndzLine extrusionLine, HndzProfile profile, HndzStorey storey = null, Double baseOffset = 0,
                               HndzProductDiscipline discipline = HndzProductDiscipline.Structural) :
                              base(name, description,extrusionLine,profile, storey, baseOffset)
         {
@@ -53,5 +63,9 @@ namespace HANDAZ.Entities
         {
         }
         #endregion
+        #region Overridden Methods
+        public override string ToString() => "Hndz-Column";
+        #endregion
+
     }
 }

@@ -16,8 +16,8 @@ namespace HANDAZ.Entities
     public abstract class HndzStructuralElement: HndzExtrudedElement
     {
         #region Properties
-       [DataMember, XmlAttribute]
-        public HndzProfile Profile { get; set; }
+       //[DataMember, XmlAttribute]
+        //public HndzProfile Profile { get; set; }
         public bool? IsDesignPassed { get; set; }
         #endregion
         #region Constructors

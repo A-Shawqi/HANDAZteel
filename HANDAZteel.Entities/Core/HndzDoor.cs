@@ -16,7 +16,6 @@ namespace HANDAZ.Entities
 
         #endregion
        
-
         #region constr
         public HndzDoor(string name, string description, Double width = 0, Double height = 0,
                         Point3d position = default(Point3d), HndzWall wall = null, Double baseOffset = 0) : 
@@ -35,5 +34,10 @@ namespace HANDAZ.Entities
         }
 
         #endregion
+
+        #region Overridden Methods
+        public override string ToString() => "Hndz-Door";
+        #endregion
+
     }
 }

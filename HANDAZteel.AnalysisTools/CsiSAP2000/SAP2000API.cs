@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using SAP2000v18;
+using SAP2000v20;
 using HANDAZ.Entities;
 using System.Collections;
 using System.IO;

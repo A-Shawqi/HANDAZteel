@@ -19,13 +19,21 @@ namespace HANDAZ.Entities
 
         #region Constructors
 
-        public HndzWallStandardCase(String name, String description, HndzStorey storey, Double baseOffset = 0,
-                                    Line baseLine = default(Line), Double unconnectedHeight = 0, Double wallThickness = 0, ICollection<HndzWallOpening> wallOpenings = null) :
-                                    base(name, description, unconnectedHeight, wallThickness, storey, baseOffset, wallOpenings)
+        public HndzWallStandardCase(String name, String description, HndzStorey storey, Double baseOffset = 0, 
+                                    Line baseLine = default(Line), Double unconnectedHeight=0, Double wallThickness = 0, ICollection<HndzWallOpening> wallOpenings = null) : 
+                                    base(name,description, unconnectedHeight,wallThickness,storey,baseOffset, wallOpenings)
         {
             BaseLine = baseLine;
-            Point3d StartPoint = new Point3d(BaseLine.PointAt(.5));
-            Point3d EndPoint = new Point3d(StartPoint.X + BaseOffset, StartPoint.Y, unconnectedHeight);
+            //MS:
+            //Step1: Create HndzProfile
+            var myWallRec = new Rectangle3d(Plane.WorldXY, wallThickness, BaseLine.Length);
+            var orientationVector = new Vector2d(BaseLine.UnitTangent.X, BaseLine.UnitTangent.Y);
+            var myHndzProfile = new HndzRectangularProfile(myWallRec, orientationVector);
+            Profile = myHndzProfile;
+
+            //Step2: Create Extrusion Line
+            Point3d StartPoint = new Point3d(BaseLine.PointAt(.5).X, BaseLine.PointAt(.5).Y,BaseOffset + storey.Elevation);
+            Point3d EndPoint = new Point3d(StartPoint.X , StartPoint.Y, unconnectedHeight + BaseOffset + storey.Elevation);
             ExtrusionLine = new HndzLine(new Line(StartPoint, EndPoint));
         }
 
@@ -41,6 +49,9 @@ namespace HANDAZ.Entities
         }
         #endregion
 
+        #region Overridden Methods
+        public override string ToString() => "Hndz-Wall";
+        #endregion
 
     }
 }

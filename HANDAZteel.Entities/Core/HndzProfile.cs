@@ -13,14 +13,16 @@ namespace HANDAZ.Entities
     [KnownType(typeof(HndzITaperedProfile))]
     [KnownType(typeof(HndzISectionProfile))]
     [KnownType(typeof(HndzCSectionProfile))]
-    [KnownType(typeof(HndzRectangularProfile))]
+    [KnownType(typeof(HndzRectangularProfile))][KnownType(typeof(HANDAZ.Entities.HndzRectangularProfile))]
+    [KnownType(typeof(HANDAZ.Entities.HndzCircularProfile))]
+    [KnownType(typeof(HANDAZ.Entities.HndzPolylineProfile))]
+    
     public abstract class HndzProfile : HndzRoot
     {
        [DataMember, XmlAttribute]
         public Vector2d OrientationInPlane { get; set; } //TODO: declare plane for profile shape
-
-
-        //public Point3d Centroid { get; set; }
+       [DataMember, XmlAttribute]
+        public Point3d Centroid { get; set; }
         protected HndzProfile( string name, string description, Vector2d orientation = default(Vector2d)) : base(name, description)
         {
             if (orientation == default(Vector2d))

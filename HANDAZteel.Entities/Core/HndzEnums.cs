@@ -1,22 +1,19 @@
-﻿using System.ComponentModel;
-
-namespace HANDAZ.Entities
+﻿namespace HANDAZ.Entities
 {
     public enum HndzWCS
     {
-        WGS84,
-        [Description("Egypt Red Belt")]
-        Egypt_Red_Belt,
-        [Description("NTF Lambert Zone II")]
+        None,
+        WGS_1984,
         NTF_Lambert_Zone_II
+        //todo
     }
     public enum HndzLengthUnitSystem
     {
-        mm=1,
-        cm=100,
-        inch=25,//25.4
-        m=1000,
-        ft=305 //304.8
+        mm,
+        cm,
+        inch,
+        m,
+        ft
     }
     public enum HndzForceUnitSystem
     {
@@ -108,7 +105,7 @@ namespace HANDAZ.Entities
         HotRolledI,
         BuiltUpI,
         TaperedI,
-        
+
     }
     public enum HndzShapeTypeEnum
     {
@@ -124,11 +121,11 @@ namespace HANDAZ.Entities
     }
     public enum HndzRiskCategoryEnum
     {
-        I,II,III,IV
+        I, II, III, IV
     }
     public enum HndzExposureCategoryEnum
     {
-        B,C,D
+        B, C, D
     }
     #endregion
 
@@ -172,17 +169,17 @@ namespace HANDAZ.Entities
     }
     public enum HndzLoadDirectionEnum
     {
-        Local1axis=1,
-        Local2axis=2,
-        Local3axis=3,
-        Xdirection=4,
-        Ydirection=5,
-        Zdirection=6,
-        XProjected=7,
-        YProjected=8,
-        ZProjected=9,
-        Gravity=10,
-        GravityProjected=11
+        Local1axis,
+        Local2axis,
+        Local3axis,
+        Xdirection,
+        Ydirection,
+        Zdirection,
+        XProjected,
+        YProjected,
+        ZProjected,
+        Gravity,
+        GravityProjected
     }
 
     public enum HndzLoadPatternType

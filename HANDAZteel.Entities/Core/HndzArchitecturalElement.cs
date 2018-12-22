@@ -10,7 +10,8 @@ namespace HANDAZ.Entities
 {
     [DataContract]  [Serializable]  [XmlSerializerFormat]
 
-    [KnownType(typeof(HndzWall))]
+    [KnownType(typeof(HANDAZ.Entities.HndzWall))]
+    [KnownType(typeof(HANDAZ.Entities.HndzFloor))]
     public abstract class HndzArchitecturalElement: HndzExtrudedElement
     {
         #region Properties
@@ -22,7 +23,7 @@ namespace HANDAZ.Entities
         {
 
         }
-        public HndzArchitecturalElement() : this(HndzResources.DefaultName, HndzResources.DefaultDescription, null)
+        public HndzArchitecturalElement() : this(HndzResources.DefaultName, HndzResources.DefaultDescription,null)
         {
 
         }

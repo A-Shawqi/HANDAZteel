@@ -21,8 +21,8 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
+                    <h3>Frame Template</h3>
+                   <%-- <p>Design, Photography</p>--%>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -42,8 +42,8 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
+                    <h3>Frame Template</h3>
+                    <%--<p>Design, Photography</p>--%>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -63,8 +63,8 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
+                    <h3>Frame Template</h3>
+                   <%-- <p>Design, Photography</p>--%>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -84,8 +84,8 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
+                    <h3>Frame Template</h3>
+                   <%-- <p>Design, Photography</p>--%>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -105,8 +105,8 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
+                    <h3>Frame Template</h3>
+                   <%-- <p>Design, Photography</p>--%>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -126,8 +126,8 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
+                    <h3>Frame Template</h3>
+                   <%-- <p>Design, Photography</p>--%>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -147,8 +147,8 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
+                    <h3>Frame Template</h3>
+                   <%-- <p>Design, Photography</p>--%>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
@@ -168,8 +168,8 @@
               <div class="overlay-content">
                 <div class="overlay-text">
                   <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
+                    <h3>Frame Template</h3>
+                    <%--<p>Design, Photography</p>--%>
                   </div>
                   <div class="folio-overview">
                     <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>

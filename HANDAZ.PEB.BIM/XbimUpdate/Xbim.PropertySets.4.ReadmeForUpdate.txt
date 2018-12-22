@@ -1,0 +1,16 @@
+XbimTeam have changed the approach to the Nuget packages ID.
+
+Xbim.PropertySets.4 has been discontinued, but an alternative is available; the alternative package is called "Xbim.PropertySets".
+To install it, you can proceed as follows:
+
+Case 1: If you want to install Xbim.PropertySets support from scratch in your solution.
+		Search and install the "Xbim.PropertySets" package instead.
+		
+Case 2: If you have already installed this version.
+		Issue the following commands in the Package Manager Console window:
+		
+		Uninstall-Package Xbim.PropertySets.4 –Force	  
+		
+		Afterwards you should still have Xbim.PropertySets package in your solution.
+		
+You can safely delete this file and the XbimUpdate folder in your solution.

@@ -209,7 +209,7 @@ namespace HANDAZ.Entities
 
                 /////
                 HndzLine beamine = new HndzLine(upperRight, upperLeft);
-                Frame.Beam = new HndzBeamStandrdCase(beamine, beamsTaperedProfile);
+                Frame.Beam = new HndzBeamStandardCase(beamine, beamsTaperedProfile);
 
                 //HndzLine lBeamLine = new HndzLine(upperLeft, ridgeMid);
                 //Frame.LeftBeam = new HndzBeamStandrdCase(lBeamLine, beamsTaperedProfile);

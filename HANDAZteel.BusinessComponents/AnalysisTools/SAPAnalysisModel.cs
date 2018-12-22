@@ -1,7 +1,7 @@
 ﻿using HANDAZ.Entities;
 using HANDAZ.PEB.AnalysisTools.CsiSAP2000;
 using HANDAZ.PEB.Core;
-using SAP2000v18;
+using SAP2000v20;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -1877,7 +1877,7 @@ namespace HANDAZ.PEB.BusinessComponents
 //using HANDAZ.Entities;
 //using HANDAZ.PEB.AnalysisTools.CsiSAP2000;
 //using HANDAZ.PEB.Core;
-//using SAP2000v18;
+//using SAP2000v20;
 //using System;
 //using System.Collections.Generic;
 //using System.Linq;

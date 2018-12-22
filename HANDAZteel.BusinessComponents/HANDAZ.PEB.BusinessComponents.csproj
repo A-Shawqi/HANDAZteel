@@ -35,29 +35,32 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="clipper_library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Clipper.6.2.10\lib\net40\clipper_library.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>..\packages\Clipper.6.4.0\lib\net40\clipper_library.dll</HintPath>
     </Reference>
-    <Reference Include="Esent.Interop, Version=1.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\ManagedEsent.1.9.2.0\lib\net40\Esent.Interop.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Esent.Interop, Version=1.9.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\ManagedEsent.1.9.4\lib\net40\Esent.Interop.dll</HintPath>
     </Reference>
     <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
       <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Rhino3dmIO, Version=5.1.30000.14, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="SAP2000 UI">
+      <HintPath>..\Ref\SAP2000 UI.dll</HintPath>
+    </Reference>
     <Reference Include="SAP2000v18, Version=18.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\HANDAZteel.AnalysisTools\bin\Debug\SAP2000v18.dll</HintPath>
+    </Reference>
+    <Reference Include="SAP2000v20">
+      <HintPath>..\Ref\SAP2000v20.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -74,21 +77,32 @@
       <HintPath>..\packages\UnitsNet.3.36.0\lib\net35\UnitsNet.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Xbim.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Essentials.3.1.10\lib\net40\Xbim.Common.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Xbim.CobieExpress, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.CobieExpress.dll</HintPath>
     </Reference>
-    <Reference Include="Xbim.Ifc.Extensions, Version=3.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Essentials.3.1.10\lib\net40\Xbim.Ifc.Extensions.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Xbim.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Xbim.Ifc2x3, Version=3.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Essentials.3.1.10\lib\net40\Xbim.Ifc2x3.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Xbim.Ifc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc.dll</HintPath>
     </Reference>
-    <Reference Include="Xbim.IO, Version=3.1.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xbim.Essentials.3.1.10\lib\net40\Xbim.IO.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Xbim.Ifc.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.Ifc2x3, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc2x3.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.Ifc2x3.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc2x3.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.Ifc4, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Ifc4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Xbim.Tessellator, Version=4.0.0.0, Culture=neutral, PublicKeyToken=11e3655e576ec5a9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xbim.Essentials.4.0.29\lib\net40\Xbim.Tessellator.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +135,7 @@
   <ItemGroup>
     <None Include="App.Config" />
     <None Include="packages.config" />
+    <None Include="Scripts\angular.min.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
@@ -138,6 +153,11 @@
       <Project>{3f5d8cb1-4d18-4edd-a9ca-8207d40a88ed}</Project>
       <Name>Handaz.PEB.Entities</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

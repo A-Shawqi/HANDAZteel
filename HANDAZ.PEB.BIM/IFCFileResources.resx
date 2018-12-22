@@ -126,8 +126,14 @@
   <data name="ApplicationIdentifier" xml:space="preserve">
     <value>HANDAZteel</value>
   </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>Handazteel</value>
+  </data>
   <data name="CurrentApplicationVersion" xml:space="preserve">
     <value>v0.01</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Handazteel</value>
   </data>
   <data name="wexbimPath" xml:space="preserve">
     <value>/Savedwexbim/</value>

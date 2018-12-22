@@ -11,6 +11,8 @@ namespace HANDAZ.Entities
     [DataContract]
     [KnownType(typeof(HndzWallStandardCase))]
     [KnownType(typeof(HndzWallArc))]
+    [KnownType(typeof(HndzCurtainWallStandardCase))]
+    [KnownType(typeof(HndzCurtainWallArc))]
     public abstract class HndzWall : HndzArchitecturalElement
     {
         #region properties
@@ -47,5 +49,9 @@ namespace HANDAZ.Entities
         }
 
         #endregion
+        #region Overridden Methods
+        public override string ToString() => "Hndz-Wall";
+        #endregion
+
     }
 }

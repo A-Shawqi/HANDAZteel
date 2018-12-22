@@ -21,6 +21,8 @@ namespace HANDAZ.Entities
 
     public abstract class HndzProduct : HndzRoot
     {
+        /// <summary>
+        /// <param name="BuildingStorey">Product associated Building Storey</param>
        [DataMember, XmlAttribute]
         public HndzStorey BuildingStorey { get; set; }
         #region Constructors
@@ -32,6 +34,7 @@ namespace HANDAZ.Entities
         }
         public HndzProduct(HndzStorey storey) : this(HndzResources.DefaultName, HndzResources.DefaultDescription,storey)
         {
+            BuildingStorey = storey;
         }
         public HndzProduct() : this(HndzResources.DefaultName, HndzResources.DefaultDescription,null)
         {
@@ -43,11 +46,12 @@ namespace HANDAZ.Entities
         //{
         //    this.BuildingStorey.Building = building;
         //}
-        private void AddToAssociatedStorey()
+
+        //private void AddToAssociatedStorey()
+        protected void AddToAssociatedStorey()
         {
             if (BuildingStorey != null)
             {
-
                 if (BuildingStorey.HndzProducts != null)
                 {
                     BuildingStorey.HndzProducts.Add(this);

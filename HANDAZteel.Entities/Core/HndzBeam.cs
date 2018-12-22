@@ -10,20 +10,24 @@ using System.ServiceModel;
 namespace HANDAZ.Entities
 {
     [DataContract]  [Serializable]  [XmlSerializerFormat]
-    [KnownType(typeof(HndzBeamStandrdCase))]
+     [KnownType(typeof(HANDAZ.Entities.HndzBeamStandardCase))]
    public abstract class HndzBeam: HndzStructuralElement
     {
         #region properties
 
         #endregion
         #region Constructors
-        protected HndzBeam(String name, String description, HndzLine extrusionLine,HndzProfile profile, HndzStorey storey=null,  double baseOffset=0):
-            base(name,description, extrusionLine,profile, storey , baseOffset )
+        protected HndzBeam(String name, String description, HndzLine extrusionLine, HndzProfile profile, HndzStorey storey = null, double baseOffset = 0) :
+            base(name, description, extrusionLine, profile, storey, baseOffset)
         {
         }
-        protected HndzBeam() : this(HndzResources.DefaultName, HndzResources.DefaultDescription,null,null)
+        protected HndzBeam() : this(HndzResources.DefaultName, HndzResources.DefaultDescription, null, null)
         {
         }
         #endregion
+        #region Overridden Methods
+        public override string ToString() => "Hndz-Beam";
+        #endregion
+
     }
 }

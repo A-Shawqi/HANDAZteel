@@ -32,7 +32,8 @@ namespace HANDAZ.Entities
         #endregion
         #region Constructors
         public HndzFrameSingleBay2D(string name, string description, HndzColumn rightColumn, HndzColumn leftColumn,
-                HndzBeam rightBeam, HndzBeam leftBeam, HndzSupport rightSupport, HndzSupport leftSupport, HndzStorey storey = null) : base(name, description, storey)
+                HndzBeam rightBeam, HndzBeam leftBeam, HndzSupport rightSupport, HndzSupport leftSupport, HndzStorey storey = null,
+                    double baseOffset = 0) : base(name, description, storey, baseOffset)
         {
             RightColumn = rightColumn;
             RightBeam = rightBeam;

@@ -24,7 +24,7 @@
             <p>&copy; 2016 <%= Resources.WebResources.siteTitle%>.</p>
           </div>
           <div class="col-sm-6">
-            <p class="pull-right"></p>
+            <p class="pull-right">Crafted by <a href="http://designscrazed.org/">Allie</a></p>
           </div>
         </div>
       </div>

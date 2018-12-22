@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace HANDAZ.Entities
 {
+    [KnownType(typeof(HndzWindow))]
+    [KnownType(typeof(HndzDoor))]
     [DataContract]
-    [KnownType(typeof(HANDAZ.Entities.HndzDoor))]
-    [KnownType(typeof(HANDAZ.Entities.HndzWindow))]
     public class HndzWallOpening : HndzBuildingElement
     {
         #region Properties
@@ -41,6 +41,7 @@ namespace HANDAZ.Entities
                 base.BuildingStorey = Wall.BuildingStorey;
             }
             AddToAssociatedWall();
+            base.AddToAssociatedStorey();
         }
 
         public HndzWallOpening(Double width = 0, Double height = 0, Point3d position = default(Point3d),
@@ -72,5 +73,10 @@ namespace HANDAZ.Entities
             }
         }
         #endregion
+
+        #region Overridden Methods
+        public override string ToString() => "Hndz-Wall Opening";
+        #endregion
+
     }
 }

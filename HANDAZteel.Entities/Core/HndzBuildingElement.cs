@@ -10,7 +10,11 @@ using System.Xml.Serialization;
 namespace HANDAZ.Entities
 {
     [DataContract]  [Serializable]  [XmlSerializerFormat]
+   [KnownType(typeof(HANDAZ.Entities.HndzStair))]
     [KnownType(typeof(HANDAZ.Entities.HndzExtrudedElement))]
+    [KnownType(typeof(HANDAZ.Entities.HndzFrame2D))]
+    [KnownType(typeof(HANDAZ.Entities.HndzFrame3D))]
+    [KnownType(typeof(HANDAZ.Entities.HndzWallOpening))]
 
     public abstract class HndzBuildingElement : HndzProduct
     {
@@ -29,7 +33,7 @@ namespace HANDAZ.Entities
         {
             Discipline = discipline;
             BaseOffset = baseOffset;
-            //AddToAssociatedStorey();
+            //AddToAssociatedStorey();//check bug
         }
 
         public HndzBuildingElement(HndzStorey storey, Double baseOffset, HndzProductDiscipline discipline) :
@@ -42,11 +46,10 @@ namespace HANDAZ.Entities
         #endregion
 
         #region Methods
-        //private void AddToAssociatedStorey()
+        //protected void AddToAssociatedStorey()
         //{
         //    if (BuildingStorey != null)
         //    {
-
         //        if (BuildingStorey.HndzProducts != null)
         //        {
         //            BuildingStorey.HndzProducts.Add(this);

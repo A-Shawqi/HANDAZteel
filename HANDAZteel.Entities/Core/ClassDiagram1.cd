@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HANDAZ.Entities.HndzAnalysisResults" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAEAABABQAAAAEAAAAAAADAAAAAAAQAAAAEAADAA=</HashCode>
+      <FileName>Entities\HndzAnalysisResults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzArchitecturalElement" Collapsed="true">
+    <Position X="23.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzArchitecturalElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzBeam" Collapsed="true">
+    <Position X="37.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzBeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzBeamStandrdCase">
+    <Position X="36.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzBeamStandrdCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzBuilding" Collapsed="true">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAACAAAAAEAAAACAAAAAgAAAAA=</HashCode>
+      <FileName>Entities\HndzBuilding.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzBuildingElement" Collapsed="true">
+    <Position X="35" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAA=</HashCode>
+      <FileName>Entities\HndzBuildingElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzCity" Collapsed="true">
+    <Position X="61" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzCity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzColumn" Collapsed="true">
+    <Position X="28.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzColumnStandardCase" Collapsed="true">
+    <Position X="27.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzColumnStandardCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzCSectionProfile" Collapsed="true">
+    <Position X="58.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzCSectionProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzDoor" Collapsed="true">
+    <Position X="47.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzDoor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzExtrudedElement" Collapsed="true">
+    <Position X="30.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAABAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzExtrudedElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzFrame2D" Collapsed="true">
+    <Position X="40.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzFrame2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzFrame3D" Collapsed="true">
+    <Position X="43" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACDAAAAIIFAEBAAIAAEABAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzFrame3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzFrameSingleBay2D" Collapsed="true">
+    <Position X="40.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIAgAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAIA=</HashCode>
+      <FileName>Entities\HndzFrameSingleBay2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzFrameSingleBay3D" Collapsed="true">
+    <Position X="43" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIQQAAAAAAA=</HashCode>
+      <FileName>Entities\HndzFrameSingleBay3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzGrid" Collapsed="true">
+    <Position X="63.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzGuirt" Collapsed="true">
+    <Position X="31.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzGuirt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzISectionProfile" Collapsed="true">
+    <Position X="52" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAEAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzISectionProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzITaperedProfile" Collapsed="true">
+    <Position X="54.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzITaperedProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzLine" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAIAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Entities\HndzLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzNode" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzProduct" Collapsed="true">
+    <Position X="35" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzProfile" Collapsed="true">
+    <Position X="55.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzProject" Collapsed="true">
+    <Position X="65.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCAIAAAhAAAAAIAAAAAAIAAAAAAGAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzProject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzPurlin" Collapsed="true">
+    <Position X="34" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzPurlin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzPurlinStandrdCase">
+    <Position X="34" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzPurlinStandrdCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzRectangularProfile" Collapsed="true">
+    <Position X="56.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzRectangularProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzRoot" Collapsed="true">
+    <Position X="37.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAIAAAACAAAAAA=</HashCode>
+      <FileName>Entities\HndzRoot.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzSite" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAGAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzSite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzStorey" Collapsed="true">
+    <Position X="49.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAgAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzStorey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzStructuralElement" Collapsed="true">
+    <Position X="32.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzStructuralElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzSupport" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAAIAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Entities\HndzSupport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzWall" Collapsed="true">
+    <Position X="23.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Entities\HndzWall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzWallArc" Collapsed="true">
+    <Position X="22.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzWallArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzWallOpening" Collapsed="true">
+    <Position X="46.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAgAAAAAEAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzWallOpening.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzWallStandardCase" Collapsed="true">
+    <Position X="25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzWallStandardCase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzWeather" Collapsed="true">
+    <Position X="68" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzWeather.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HANDAZ.Entities.HndzWindow" Collapsed="true">
+    <Position X="45.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="HANDAZ.Entities.HndzFlange" Collapsed="true">
+    <Position X="68" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HANDAZ.Entities.HndzWeb" Collapsed="true">
+    <Position X="69.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HANDAZ.Entities.HndzWeld" Collapsed="true">
+    <Position X="71.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Entities\HndzStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HANDAZ.Entities.Person" Collapsed="true">
+    <Position X="73.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAEAAAAAQAAAAAAAACEAAAAAAAIAg=</HashCode>
+      <FileName>Entities\HndzStructs.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="HANDAZ.Entities.IHndzRoot" Collapsed="true">
+    <Position X="68" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Entities\IHndzRoot.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="HANDAZ.Entities.HndzWCS" Collapsed="true">
+    <Position X="68" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAABAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzLengthUnitSystem" Collapsed="true">
+    <Position X="73.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAIgEAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzForceUnitSystem" Collapsed="true">
+    <Position X="69.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAEAACAAAAAQAAAAAgAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzProductDiscipline" Collapsed="true">
+    <Position X="69.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAACAEAAAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzLocationEnum" Collapsed="true">
+    <Position X="68" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAgAAAAAAAABAAAAAAAAAgAAAAgAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzRoofSlopeEnum" Collapsed="true">
+    <Position X="68" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAIAAAAAAEAAAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzRoofAccessibilityEnum" Collapsed="true">
+    <Position X="73.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzBuildingEnclosingEnum" Collapsed="true">
+    <Position X="68" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAIAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzImportanceFactorEnum" Collapsed="true">
+    <Position X="71.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAACAAAAE=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzProductTypeEnum" Collapsed="true">
+    <Position X="71.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAICEAABAACAAQAAAAAAAAACEAAEAQAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzSectionTypeEnum" Collapsed="true">
+    <Position X="69.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAEEAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzShapeTypeEnum" Collapsed="true">
+    <Position X="71.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HANDAZ.Entities.HndzSupportTypeEnum" Collapsed="true">
+    <Position X="73.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAQBAAAI=</HashCode>
+      <FileName>Entities\HndzEnums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
